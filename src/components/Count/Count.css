@@ -1,0 +1,22 @@
+ul{
+    list-style: none;
+    margin-right: 5px;
+}
+
+li{
+    font-size: 25px;
+
+}
+
+li span {
+    margin-left: 15px;
+}
+
+.btn-delete {
+    background: url("../../accepts/images/trash-alt-solid.svg") 50% 50% no-repeat;
+    width: 18px;
+    height: 27px;
+    margin-left: 30px;
+    border: none;
+    outline: none;
+}

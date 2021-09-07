@@ -1,0 +1,77 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    background: #282c34;
+    color: #61dafb;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 15px;
+    display: flex;
+}
+
+h1 {
+    text-align: center;
+}
+
+.orderDetails {
+    width: 40%;
+    border: 2px solid #61dafb;
+    margin-right: 5px;
+}
+
+.price {
+    border-top: 2px solid #61dafb;
+    padding-left: 35px;
+    font-size: 20px;
+}
+
+.orderDetails h4 {
+    padding-left: 15px;
+}
+
+.orderDetails p {
+    border-top: 2px solid #61dafb;
+    font-size: 18px;
+    text-align: left;
+}
+
+.addItems {
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.addItems__header {
+    width: 80%;
+}
+
+.addItems div {
+    margin: 2px;
+    width: 49%;
+    border: 2px solid #61dafb;
+    border-radius: 5px;
+    padding-left: 30px;
+}
+
+.addItems h2 {
+    position: relative;
+    padding-left: 35px;
+}
+
+.addItems div:hover {
+    background: #61dafb;
+    color: #282c34;
+    position: relative;
+}
+
+
+
+
+

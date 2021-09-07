@@ -1,0 +1,30 @@
+
+.Hamburger::after,
+.Cheeseburger::after,
+.Snack-Salad::after,
+.Fries::after,
+.Tea::after,
+.Coffee::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 30px;
+    height: 30px;
+}
+.Hamburger::after,
+.Cheeseburger::after{
+    background: url("../../accepts/icons/hamburger-solid.svg") 0 50% no-repeat;
+}
+.Snack-Salad::after{
+    background: url("../../accepts/icons/utensils-solid.svg") 0 50% no-repeat;
+}
+.Fries::after{
+    background: url("../../accepts/icons/utensils-solid.svg") 0 50% no-repeat;
+}
+.Coffee::after{
+    background: url("../../accepts/icons/coffee-solid.svg") 0 50% no-repeat;
+}
+.Tea::after{
+    background: url("../../accepts/icons/mug-hot-solid.svg") 0 50% no-repeat;
+}
